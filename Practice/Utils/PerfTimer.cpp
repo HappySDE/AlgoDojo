@@ -7,26 +7,10 @@
 
 #include <iostream>
 
-PerfBlock::PerfBlock(PerfTimer& timer, unsigned id)
-	: m_timer{timer}
-	, m_block{id}
-{
-	_check(id < PerfTimer::m_blockAmount);
-	m_timer.startBlock(m_block);
-}
-
-PerfBlock::~PerfBlock()
-{
-	m_timer.stopBlock(m_block);
-}
-
 
 PerfTimer::PerfTimer()
 {
 	LARGE_INTEGER li;
-	QueryPerformanceCounter(&li);
-	m_testTotalTime = li.QuadPart;
-
 	_check(QueryPerformanceFrequency(&li));
 	m_cpuFreq = li.QuadPart;
 
@@ -34,6 +18,9 @@ PerfTimer::PerfTimer()
 	{
 		m_blocks[i] = 0;
 	}
+
+	QueryPerformanceCounter(&li);
+	m_testTotalTime = li.QuadPart;
 }
 
 PerfTimer::~PerfTimer()
@@ -46,11 +33,11 @@ PerfTimer::~PerfTimer()
 	{
 		if (m_blocks[i] != 0)
 		{
-			std::cout << "Block " << i << ": ";
+			std::cout << "Block" << i << ": ";
 			printTime(m_blocks[i]);
 		}
 	}
-	std::cout << "Total: ";
+	std::cout << "Total:  ";
 	printTime(m_testTotalTime);
 }
 
@@ -73,11 +60,20 @@ void PerfTimer::stopBlock(unsigned block)
 	m_blocks[block] = li.QuadPart - m_blocks[block];
 }
 
+namespace {
+
+	// custom numpunct with grouping:
+	struct my_numpunct : std::numpunct<char> {
+		std::string do_grouping() const { return "\03"; }
+	};
+
+} // unnamed namespace
+
 void PerfTimer::printTime(__int64 time) const
 {
-	__int64 sec = time / m_cpuFreq;
-	std::cout << sec << ',';
+	std::locale loc(std::cout.getloc(), new my_numpunct);
+	std::cout.imbue(loc);
+	std::cout.width(15);
 
-	__int64 mcs = (time * 1'000'000) / m_cpuFreq;
-	std::cout << mcs / 1000 << '.' << mcs % 1000 << '\n';
+	std::cout << (time * 1'000'000) / m_cpuFreq << " mcs\n";
 }

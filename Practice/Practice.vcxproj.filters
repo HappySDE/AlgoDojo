@@ -4,6 +4,9 @@
     <Filter Include="Utils">
       <UniqueIdentifier>{92ecb233-73ee-4216-9a7e-bb2fa7295539}</UniqueIdentifier>
     </Filter>
+    <Filter Include="HackerRank">
+      <UniqueIdentifier>{ff76a049-a5fd-4654-b4b7-c4219469322b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Utils\Check.cpp">
@@ -19,6 +22,10 @@
       <Filter>Utils</Filter>
     </ClCompile>
     <ClCompile Include="!Main.cpp" />
+    <ClCompile Include="HackerRank\h000.cpp">
+      <Filter>HackerRank</Filter>
+    </ClCompile>
+    <ClCompile Include="!template.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Utils\Check.h">

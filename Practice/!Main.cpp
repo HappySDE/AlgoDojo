@@ -3,15 +3,12 @@
 #include <exception>
 #include <iostream>
 
-#define TEST_CASE t008
+#define TEST_CASE h000
 #define STRINGIFY(x) #x
 #define TOSTRING(x) STRINGIFY(x)
 //#TODO: replace macro with more elegant solution
 
-void TEST_CASE(unsigned run)
-{
-
-}
+void TEST_CASE(unsigned run);
 
 void main()
 try

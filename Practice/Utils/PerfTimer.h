@@ -1,22 +1,11 @@
 #pragma once
 
-class PerfTimer;
-
-class PerfBlock
-{
-public:
-	PerfBlock(PerfTimer& timer, unsigned id);
-	~PerfBlock();
-
-private:
-	PerfTimer& m_timer;
-	const unsigned m_block;
-};
-
 class PerfTimer
 {
 public:
-	friend class PerfBlock;
+	friend struct PerfBlock0;
+	friend struct PerfBlock1;
+	friend struct PerfBlock2;
 
 	PerfTimer();
 	~PerfTimer();
@@ -33,3 +22,7 @@ private:
 	__int64 m_testTotalTime;
 	__int64 m_blocks[m_blockAmount];
 };
+
+struct PerfBlock0 { explicit PerfBlock0(PerfTimer& timer) : m_timer{ timer } { m_timer.startBlock(0); }		~PerfBlock0() { m_timer.stopBlock(0); }	PerfTimer& m_timer; };
+struct PerfBlock1 { explicit PerfBlock1(PerfTimer& timer) : m_timer{ timer } { m_timer.startBlock(1); }		~PerfBlock1() { m_timer.stopBlock(1); }	PerfTimer& m_timer; };
+struct PerfBlock2 { explicit PerfBlock2(PerfTimer& timer) : m_timer{ timer } { m_timer.startBlock(2); }		~PerfBlock2() { m_timer.stopBlock(2); }	PerfTimer& m_timer; };
