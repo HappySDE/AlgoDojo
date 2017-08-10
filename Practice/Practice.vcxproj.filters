@@ -7,6 +7,9 @@
     <Filter Include="HackerRank">
       <UniqueIdentifier>{ff76a049-a5fd-4654-b4b7-c4219469322b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="GfG">
+      <UniqueIdentifier>{e0842126-3f72-4766-8190-cc91be415aa4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Utils\Check.cpp">
@@ -26,6 +29,9 @@
       <Filter>HackerRank</Filter>
     </ClCompile>
     <ClCompile Include="!template.cpp" />
+    <ClCompile Include="GfG\g000.cpp">
+      <Filter>GfG</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Utils\Check.h">

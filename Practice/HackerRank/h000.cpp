@@ -2,6 +2,8 @@
 #include <queue>
 
 // https://www.hackerrank.com/challenges/equal-stacks/problem
+// #yyy_FILL_ME: hash-tags
+// #yyy_FILL_ME: full description
 
 void h000(unsigned run)
 {
