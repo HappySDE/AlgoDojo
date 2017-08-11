@@ -1,8 +1,9 @@
 #include "Headers.h"
 
-// http://practice.geeksforgeeks.org/problems/shortest-path-from-1-to-n/0
-// #Graph @PathFind
-/* 
+// 0_Diff_Basic
+// #Graph #PathFind
+
+/* http://practice.geeksforgeeks.org/problems/shortest-path-from-1-to-n/0
 Consider a directed graph whose vertices are numbered from 1 to n. There is an edge from a vertex i to a vertex j iff either j = i + 1 or j = 3i. 
 The task is to find the minimum number of edges in a path in G from vertex 1 to vertex n.
 

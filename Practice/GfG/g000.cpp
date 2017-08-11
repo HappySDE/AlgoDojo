@@ -1,8 +1,9 @@
 #include "Headers.h"
 
-// http://practice.geeksforgeeks.org/problems/paths-to-reach-origin/0
+// 0_Diff_Easy
 // #DynProg #2DArr #PathFind
-/* 
+
+/* http://practice.geeksforgeeks.org/problems/paths-to-reach-origin/0
 You are standing on a point (n, m) and you want to go to origin (0, 0) by taking steps either left or down i.e. from each point you are allowed to move either in (n-1, m) or (n, m-1). 
 Find the number of paths from point to origin.
 

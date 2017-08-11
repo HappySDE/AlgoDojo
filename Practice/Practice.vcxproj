@@ -155,6 +155,7 @@
     </ClCompile>
     <ClCompile Include="GfG\g000.cpp" />
     <ClCompile Include="GfG\g001.cpp" />
+    <ClCompile Include="GfG\g002.cpp" />
     <ClCompile Include="HackerRank\h000.cpp" />
     <ClCompile Include="Utils\Check.cpp" />
     <ClCompile Include="Utils\Misc.cpp" />
@@ -167,6 +168,9 @@
     <ClInclude Include="Utils\Misc.h" />
     <ClInclude Include="Utils\PerfTimer.h" />
     <ClInclude Include="Utils\TestData.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="BackLog.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -35,6 +35,9 @@
     <ClCompile Include="GfG\g001.cpp">
       <Filter>GfG</Filter>
     </ClCompile>
+    <ClCompile Include="GfG\g002.cpp">
+      <Filter>GfG</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Utils\Check.h">
@@ -52,5 +55,8 @@
     <ClInclude Include="Utils\TestData.h">
       <Filter>Utils</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="BackLog.txt" />
   </ItemGroup>
 </Project>
