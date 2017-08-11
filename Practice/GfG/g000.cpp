@@ -6,15 +6,14 @@
 You are standing on a point (n, m) and you want to go to origin (0, 0) by taking steps either left or down i.e. from each point you are allowed to move either in (n-1, m) or (n, m-1). 
 Find the number of paths from point to origin.
 
-Input:
-The first line of input contains an integer T denoting the number of test cases. Then T test cases follow. Each test case contains two integers n and m representing the point.
+Input: The first line of input contains an integer T denoting the number of test cases. Then T test cases follow. Each test case contains two integers n and m representing the point.
 
-Output:
-Print the total number of paths from point to origin.
+Output: Print the total number of paths from point to origin.
 
 Constraints:
-1<=T<=100
-1<=n,m<=100		*/
+	1<=T<=100
+	1<=n,m<=100
+*/
 
 namespace {
 
@@ -50,7 +49,7 @@ namespace {
 		return data[(c+1)*(r+1)-1];
 	}
 
-	//#xxx_Perf v2.0: I do not need entire matrix, need only half of it + diagonal. Check for perf in this case
+	//#xxx_Perf v2.0: I do not need entire matrix, but only half of it + diagonal. Check for perf in this case
 
 } // unnamed namespace
 
