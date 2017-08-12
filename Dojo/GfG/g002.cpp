@@ -41,7 +41,7 @@ namespace {
 			{
 				++y;
 			}
-			else if (matrix[index] > val)
+			else
 			{
 				--x;
 			}

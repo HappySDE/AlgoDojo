@@ -1,0 +1,6 @@
+http://practice.geeksforgeeks.org/topic-tags
+
+CPP[157]: http://practice.geeksforgeeks.org/topics/CPP/All/
+	http://practice.geeksforgeeks.org/problems/maximum-integer-value/0
+	http://practice.geeksforgeeks.org/problems/transform-the-array/0
+	http://practice.geeksforgeeks.org/problems/sum-of-digit-is-pallindrome-or-not/0	http://www.geeksforgeeks.org/check-if-a-number-is-palindrome/
