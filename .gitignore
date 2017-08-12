@@ -7,6 +7,7 @@
 *.sdf
 *.suo
 *.user
+BackLog.txt
 
 Debug
 Release
