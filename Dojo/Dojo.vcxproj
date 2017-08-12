@@ -169,9 +169,6 @@
     <ClInclude Include="Utils\PerfTimer.h" />
     <ClInclude Include="Utils\TestData.h" />
   </ItemGroup>
-  <ItemGroup>
-    <Text Include="BackLog.txt" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
