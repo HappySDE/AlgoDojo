@@ -87,11 +87,10 @@ void g004(unsigned run)
 
 		transform(data);
 
-		std::string str;
 		for (auto j : data)
 		{
-			str += std::to_string(j) + ' ';
+			cout << j << ' ';
 		}
-		cout << str << '\n';
+		cout << '\n';
 	}
 }

@@ -59,19 +59,26 @@ Result::Result(const std::string& fileName, unsigned run)
 
 Result::~Result()
 {
-	if (m_received.size() != m_expected.size())
+	std::vector<std::string> received;
+	std::string str;
+	while (getline(m_received, str))
+	{
+		received.push_back(str);
+	}
+
+	if (received.size() != m_expected.size())
 	{
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), FOREGROUND_RED | FOREGROUND_INTENSITY);
 		std::cout << "Invalid result count:\n";
-		std::cout << "Received = " << m_received.size() << " Expected = " << m_expected.size() << '\n';
+		std::cout << "Received = " << received.size() << " Expected = " << m_expected.size() << '\n';
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_BLUE);
 		return;
 	}
 
 	bool ok = true;
-	for (size_t i = 0; i < m_received.size(); ++i)
+	for (size_t i = 0; i < received.size(); ++i)
 	{
-		if (m_received[i] != m_expected[i])
+		if (received[i] != m_expected[i])
 		{
 			ok = false;
 			break;
@@ -89,10 +96,10 @@ Result::~Result()
 	std::cout << "Invalid result:\n";
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_BLUE);
 
-	for (size_t i = 0; i < m_received.size(); ++i)
+	for (size_t i = 0; i < received.size(); ++i)
 	{
 		std::cout << "Expected[" << i << "]  " << m_expected[i] << '\n';
-		std::cout << "Received[" << i << "]  " << m_received[i] << '\n';
+		std::cout << "Received[" << i << "]  " << received[i] << '\n';
 	}
 	std::cout << "\n\n";
 }

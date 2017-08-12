@@ -67,6 +67,6 @@ void g000(unsigned run)
 	{
 		unsigned n, m;
 		cin >> n >> m;
-		cout << solve(n, m);
+		cout << solve(n, m) << '\n';
 	}
 }
