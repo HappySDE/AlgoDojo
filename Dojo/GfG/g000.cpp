@@ -1,5 +1,3 @@
-#include "Headers.h"
-
 // 0_Diff_Easy
 // #DynProg #2DArr #PathFind
 
@@ -13,8 +11,9 @@ Output: Print the total number of paths from point to origin.
 
 Constraints:
 	1<=T<=100
-	1<=n,m<=100
-*/
+	1<=n,m<=100	*/
+
+#include "Headers.h"
 
 namespace {
 

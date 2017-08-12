@@ -1,5 +1,3 @@
-#include "Headers.h"
-
 // #0_Diff_Easy
 // #0_Comp_Microsoft
 // #Array
@@ -26,6 +24,8 @@ Input:
 
 Output:
 2 4 10 4 8 12 8 0 0 0 0 0	*/
+
+#include "Headers.h"
 #include <stack>
 
 namespace {

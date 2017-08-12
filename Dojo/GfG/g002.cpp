@@ -1,5 +1,3 @@
-#include "Headers.h"
-
 // #0_Diff_Easy 
 // #0_Comp_Microsoft
 // #2DArr #Search
@@ -19,8 +17,9 @@ Output:	Corresponding to each test case, print in a new line, 1 if the element x
 
 Constraints:
 	1<=T<=200
-	1<=N,M<=30
-*/
+	1<=N,M<=30	*/
+
+#include "Headers.h"
 
 namespace {
 

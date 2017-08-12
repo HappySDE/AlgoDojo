@@ -1,6 +1,5 @@
 #include "Utils\Check.h"
 #include "Utils\TestData.h"
-#include <fstream>
 #include <iostream>
 
 #define WIN32_LEAN_AND_MEAN
@@ -25,6 +24,8 @@ namespace {
 
 } // unnamed namespace
 
+
+//////////////////////////////////////////////////////////////////////////
 std::string GetTestCasePath(const std::string& testCaseName, unsigned run, bool input)
 {
 	// W:\!Practice\TestData\g000\0.in
@@ -35,12 +36,16 @@ std::string GetTestCasePath(const std::string& testCaseName, unsigned run, bool 
 	return path;
 }
 
+
+//////////////////////////////////////////////////////////////////////////
 FileTestData::FileTestData(const std::string& file, unsigned run)
 	: std::ifstream{ GetTestCasePath(file, run, true)}
 {
 	_check(good()) << "Failed to open" << GetTestCasePath(file, run, true);
 }
 
+
+//////////////////////////////////////////////////////////////////////////
 Result::Result(const std::string& fileName, unsigned run)
 {
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_INTENSITY);
@@ -84,6 +89,7 @@ Result::~Result()
 			break;
 		}
 	}
+
 	if (ok)
 	{
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), FOREGROUND_GREEN | FOREGROUND_INTENSITY);

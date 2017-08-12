@@ -1,6 +1,3 @@
-#include "Headers.h"
-#include <queue>
-
 // #0_Diff_Easy
 // #Queue
 
@@ -13,6 +10,9 @@ This means you must remove zero or more cylinders from the top of zero or more o
 The removals must be performed in such a way as to maximize the height.
 
 Note: An empty stack is still a stack. */
+
+#include "Headers.h"
+#include <queue>
 
 void h000(unsigned run)
 {

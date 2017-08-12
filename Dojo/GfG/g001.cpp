@@ -1,5 +1,3 @@
-#include "Headers.h"
-
 // 0_Diff_Basic
 // #Graph #PathFind
 
@@ -17,8 +15,9 @@ Print the number of edges in the shortest path from 1 to n.
 
 Constraints:
 1<=T<=30
-1<=n <=1000
-*/
+1<=n <=1000		*/
+
+#include "Headers.h"
 
 namespace {
 
