@@ -29,7 +29,7 @@ namespace {
 std::string GetTestCasePath(const std::string& testCaseName, unsigned run, bool input)
 {
 	// W:\!Practice\TestData\g000\0.in
-	static const std::string testCaseRoot = GetSolutionFolder() + "TestData\\";
+	static const std::string testCaseRoot = GetSolutionFolder() + "Dojo\\TestData\\";
 	std::string path = testCaseRoot;
 	path += testCaseName + '\\' + std::to_string(run);
 	path += input ? ".in" : ".out";
