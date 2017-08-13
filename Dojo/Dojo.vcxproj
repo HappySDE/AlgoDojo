@@ -160,6 +160,7 @@
     <ClCompile Include="GfG\g004.cpp" />
     <ClCompile Include="GfG\g005.cpp" />
     <ClCompile Include="GfG\g006.cpp" />
+    <ClCompile Include="GfG\g007.cpp" />
     <ClCompile Include="HackerRank\h000.cpp" />
     <ClCompile Include="Utils\Check.cpp" />
     <ClCompile Include="Utils\Misc.cpp" />
@@ -167,6 +168,7 @@
     <ClCompile Include="Utils\TestData.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ADT\SLL.h" />
     <ClInclude Include="Utils\Check.h" />
     <ClInclude Include="Utils\MemoryLeakDetector.h" />
     <ClInclude Include="Utils\Misc.h" />

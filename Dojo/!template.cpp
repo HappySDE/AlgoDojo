@@ -25,7 +25,7 @@ void x00x(unsigned run) //#yyy_FILL_ME: prefix and suffix
 
 	unsigned T;
 	cin >> T;
-	for (unsigned i = 0; i < T; ++i)
+	for (unsigned t = 0; t < T; ++t)
 	{
 		solve();
 	}

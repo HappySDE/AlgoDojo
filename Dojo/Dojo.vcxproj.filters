@@ -10,6 +10,9 @@
     <Filter Include="GfG">
       <UniqueIdentifier>{e0842126-3f72-4766-8190-cc91be415aa4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ADT">
+      <UniqueIdentifier>{cae62ea7-f2af-43e1-a8a2-97b10b87c01c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Utils\Check.cpp">
@@ -50,6 +53,7 @@
     <ClCompile Include="GfG\g006.cpp">
       <Filter>GfG</Filter>
     </ClCompile>
+    <ClCompile Include="GfG\g007.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Utils\Check.h">
@@ -66,6 +70,9 @@
     </ClInclude>
     <ClInclude Include="Utils\TestData.h">
       <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ADT\SLL.h">
+      <Filter>ADT</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
