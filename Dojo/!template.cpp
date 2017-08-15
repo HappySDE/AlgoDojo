@@ -9,15 +9,15 @@
 
 namespace {
 
-	void solve()
-	{
+void solve()
+{
 
-	}
+}
 
 } // unnamed namespace
 
 
-void x00x(unsigned run) //#yyy_FILL_ME: prefix and suffix
+void x01x(unsigned run) //#yyy_FILL_ME: prefix and suffix
 {
 	FileTestData cin (__FUNCTION__, run);
 	Result       cout(__FUNCTION__, run);
