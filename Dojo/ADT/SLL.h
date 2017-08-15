@@ -3,7 +3,7 @@
 namespace SLL {
 
 	struct Node {
-		int value;
+		int data;
 		Node* next;
 	};
 
@@ -32,12 +32,33 @@ namespace SLL {
 		return pHead;
 	}
 
+	template<typename Cin>
+	Node* buildSllReverse(Cin& cin)
+	{
+		unsigned N;
+		cin >> N;
+		if (N == 0)
+		{
+			return nullptr;
+		}
+
+		Node* pHead = nullptr;
+		for (unsigned i = 0; i < N; ++i)
+		{
+			int val;
+			cin >> val;
+			pHead = new Node{ val, pHead };
+		}
+
+		return pHead;
+	}
+
 	template<typename Cout>
 	void printSll(Cout& out, const Node* pHead)
 	{
 		while (pHead)
 		{
-			out << pHead->value;
+			out << pHead->data;
 			if (pHead->next)
 			{
 				out << ' ';
@@ -47,6 +68,7 @@ namespace SLL {
 		out << '\n';
 	}
 
+	inline
 	void destroySll(Node* pHead)
 	{
 		while (pHead)

@@ -53,7 +53,12 @@
     <ClCompile Include="GfG\g006.cpp">
       <Filter>GfG</Filter>
     </ClCompile>
-    <ClCompile Include="GfG\g007.cpp" />
+    <ClCompile Include="GfG\g007.cpp">
+      <Filter>GfG</Filter>
+    </ClCompile>
+    <ClCompile Include="GfG\g008.cpp">
+      <Filter>GfG</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Utils\Check.h">

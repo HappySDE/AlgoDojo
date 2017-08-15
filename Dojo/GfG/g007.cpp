@@ -46,7 +46,7 @@ namespace {
 
 		while (pHead)
 		{
-			if (pHead->value % 2 == 0)
+			if (pHead->data % 2 == 0)
 			{
 				if (!pEvenCurr)
 				{

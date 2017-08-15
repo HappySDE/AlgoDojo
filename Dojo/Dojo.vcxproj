@@ -161,6 +161,7 @@
     <ClCompile Include="GfG\g005.cpp" />
     <ClCompile Include="GfG\g006.cpp" />
     <ClCompile Include="GfG\g007.cpp" />
+    <ClCompile Include="GfG\g008.cpp" />
     <ClCompile Include="HackerRank\h000.cpp" />
     <ClCompile Include="Utils\Check.cpp" />
     <ClCompile Include="Utils\Misc.cpp" />
