@@ -118,6 +118,8 @@ void g010(unsigned run)
 			pHead = pNewHead;
 		}
 		pHead = addOne(pHead);
+
+		Node* pToDelete = pHead;
 		while (pHead)
 		{
 			cout << pHead->data;
@@ -125,6 +127,6 @@ void g010(unsigned run)
 		}
 		cout << '\n';
 
-		destroySll(pHead);
+		destroySll(pToDelete);
 	}
 }
