@@ -57,7 +57,7 @@ Node* reverseBlock(Node* pHead, Node* pEnd) //pEnd -> next after last
 Node* reverse(Node* pHead, int k)
 {
 //#zzz_TODO: SOLVE!!!
-
+	return pHead;
 }
 
 
