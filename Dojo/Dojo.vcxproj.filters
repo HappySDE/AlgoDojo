@@ -57,8 +57,6 @@
       <Filter>GfG</Filter>
     </ClCompile>
     <ClCompile Include="GfG\g015.cpp" />
-    <ClCompile Include="GfG\g017.cpp" />
-    <ClCompile Include="GfG\g018.cpp" />
     <ClCompile Include="GfG\g019.cpp" />
     <ClCompile Include="GfG\g016.cpp">
       <Filter>GfG\SLL</Filter>
@@ -85,6 +83,12 @@
       <Filter>GfG\SLL</Filter>
     </ClCompile>
     <ClCompile Include="GfG\g014.cpp">
+      <Filter>GfG\SLL</Filter>
+    </ClCompile>
+    <ClCompile Include="GfG\g017.cpp">
+      <Filter>GfG\SLL</Filter>
+    </ClCompile>
+    <ClCompile Include="GfG\g018.cpp">
       <Filter>GfG\SLL</Filter>
     </ClCompile>
   </ItemGroup>
