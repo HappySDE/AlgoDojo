@@ -13,6 +13,9 @@
     <Filter Include="ADT">
       <UniqueIdentifier>{cae62ea7-f2af-43e1-a8a2-97b10b87c01c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="GfG\SLL">
+      <UniqueIdentifier>{4004e9f0-677f-4c8f-adb2-962cee61aded}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Utils\Check.cpp">
@@ -53,11 +56,36 @@
     <ClCompile Include="GfG\g006.cpp">
       <Filter>GfG</Filter>
     </ClCompile>
+    <ClCompile Include="GfG\g015.cpp" />
+    <ClCompile Include="GfG\g017.cpp" />
+    <ClCompile Include="GfG\g018.cpp" />
+    <ClCompile Include="GfG\g019.cpp" />
+    <ClCompile Include="GfG\g016.cpp">
+      <Filter>GfG\SLL</Filter>
+    </ClCompile>
     <ClCompile Include="GfG\g007.cpp">
-      <Filter>GfG</Filter>
+      <Filter>GfG\SLL</Filter>
     </ClCompile>
     <ClCompile Include="GfG\g008.cpp">
-      <Filter>GfG</Filter>
+      <Filter>GfG\SLL</Filter>
+    </ClCompile>
+    <ClCompile Include="GfG\g009.cpp">
+      <Filter>GfG\SLL</Filter>
+    </ClCompile>
+    <ClCompile Include="GfG\g010.cpp">
+      <Filter>GfG\SLL</Filter>
+    </ClCompile>
+    <ClCompile Include="GfG\g011.cpp">
+      <Filter>GfG\SLL</Filter>
+    </ClCompile>
+    <ClCompile Include="GfG\g012.cpp">
+      <Filter>GfG\SLL</Filter>
+    </ClCompile>
+    <ClCompile Include="GfG\g013.cpp">
+      <Filter>GfG\SLL</Filter>
+    </ClCompile>
+    <ClCompile Include="GfG\g014.cpp">
+      <Filter>GfG\SLL</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -162,6 +162,17 @@
     <ClCompile Include="GfG\g006.cpp" />
     <ClCompile Include="GfG\g007.cpp" />
     <ClCompile Include="GfG\g008.cpp" />
+    <ClCompile Include="GfG\g009.cpp" />
+    <ClCompile Include="GfG\g010.cpp" />
+    <ClCompile Include="GfG\g011.cpp" />
+    <ClCompile Include="GfG\g012.cpp" />
+    <ClCompile Include="GfG\g013.cpp" />
+    <ClCompile Include="GfG\g014.cpp" />
+    <ClCompile Include="GfG\g015.cpp" />
+    <ClCompile Include="GfG\g016.cpp" />
+    <ClCompile Include="GfG\g017.cpp" />
+    <ClCompile Include="GfG\g018.cpp" />
+    <ClCompile Include="GfG\g019.cpp" />
     <ClCompile Include="HackerRank\h000.cpp" />
     <ClCompile Include="Utils\Check.cpp" />
     <ClCompile Include="Utils\Misc.cpp" />
