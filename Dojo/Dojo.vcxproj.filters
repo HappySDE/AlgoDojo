@@ -56,41 +56,47 @@
     <ClCompile Include="GfG\g006.cpp">
       <Filter>GfG</Filter>
     </ClCompile>
-    <ClCompile Include="GfG\g015.cpp" />
-    <ClCompile Include="GfG\g019.cpp" />
-    <ClCompile Include="GfG\g016.cpp">
+    <ClCompile Include="GfG\SLL\g007.cpp">
       <Filter>GfG\SLL</Filter>
     </ClCompile>
-    <ClCompile Include="GfG\g007.cpp">
+    <ClCompile Include="GfG\SLL\g008.cpp">
       <Filter>GfG\SLL</Filter>
     </ClCompile>
-    <ClCompile Include="GfG\g008.cpp">
+    <ClCompile Include="GfG\SLL\g009.cpp">
       <Filter>GfG\SLL</Filter>
     </ClCompile>
-    <ClCompile Include="GfG\g009.cpp">
+    <ClCompile Include="GfG\SLL\g010.cpp">
       <Filter>GfG\SLL</Filter>
     </ClCompile>
-    <ClCompile Include="GfG\g010.cpp">
+    <ClCompile Include="GfG\SLL\g011.cpp">
       <Filter>GfG\SLL</Filter>
     </ClCompile>
-    <ClCompile Include="GfG\g011.cpp">
+    <ClCompile Include="GfG\SLL\g012.cpp">
       <Filter>GfG\SLL</Filter>
     </ClCompile>
-    <ClCompile Include="GfG\g012.cpp">
+    <ClCompile Include="GfG\SLL\g013.cpp">
       <Filter>GfG\SLL</Filter>
     </ClCompile>
-    <ClCompile Include="GfG\g013.cpp">
+    <ClCompile Include="GfG\SLL\g014.cpp">
       <Filter>GfG\SLL</Filter>
     </ClCompile>
-    <ClCompile Include="GfG\g014.cpp">
+    <ClCompile Include="GfG\SLL\g016.cpp">
       <Filter>GfG\SLL</Filter>
     </ClCompile>
-    <ClCompile Include="GfG\g017.cpp">
+    <ClCompile Include="GfG\SLL\g017.cpp">
       <Filter>GfG\SLL</Filter>
     </ClCompile>
-    <ClCompile Include="GfG\g018.cpp">
+    <ClCompile Include="GfG\SLL\g018.cpp">
       <Filter>GfG\SLL</Filter>
     </ClCompile>
+    <ClCompile Include="GfG\SLL\g015.cpp" />
+    <ClCompile Include="GfG\SLL\g019.cpp" />
+    <ClCompile Include="GfG\SLL\g020.cpp" />
+    <ClCompile Include="GfG\SLL\g021.cpp" />
+    <ClCompile Include="GfG\SLL\g022.cpp" />
+    <ClCompile Include="GfG\SLL\g023.cpp" />
+    <ClCompile Include="GfG\SLL\g024.cpp" />
+    <ClCompile Include="GfG\SLL\g025.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Utils\Check.h">
