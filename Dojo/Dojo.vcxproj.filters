@@ -90,13 +90,17 @@
       <Filter>GfG\SLL</Filter>
     </ClCompile>
     <ClCompile Include="GfG\SLL\g015.cpp" />
-    <ClCompile Include="GfG\SLL\g019.cpp" />
-    <ClCompile Include="GfG\SLL\g020.cpp" />
     <ClCompile Include="GfG\SLL\g021.cpp" />
     <ClCompile Include="GfG\SLL\g022.cpp" />
     <ClCompile Include="GfG\SLL\g023.cpp" />
     <ClCompile Include="GfG\SLL\g024.cpp" />
     <ClCompile Include="GfG\SLL\g025.cpp" />
+    <ClCompile Include="GfG\SLL\g019.cpp">
+      <Filter>GfG\SLL</Filter>
+    </ClCompile>
+    <ClCompile Include="GfG\SLL\g020.cpp">
+      <Filter>GfG\SLL</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Utils\Check.h">
