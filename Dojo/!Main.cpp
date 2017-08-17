@@ -3,7 +3,7 @@
 #include <exception>
 #include <iostream>
 
-#define TEST_CASE g021
+#define TEST_CASE g022
 #define STRINGIFY(x) #x
 #define TOSTRING(x) STRINGIFY(x)
 //#zzz_TODO: replace macro with more elegant solution

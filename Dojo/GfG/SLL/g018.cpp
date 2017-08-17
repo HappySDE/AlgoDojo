@@ -1,6 +1,5 @@
-// #yyy_FILL_ME: 0_Diff_<Easy,Medium,Hard,Basic,School
-// #yyy_FILL_ME: 0_Comp_
-// #yyy_FILL_ME: hash-tags
+// #0_Diff_Easy
+// #SLL
 
 /* http://practice.geeksforgeeks.org/problems/rearrange-linked-list-in-place/1
 Given a singly linked list L0 -> L1 -> … -> Ln-1 -> Ln. Rearrange the nodes in the list so that the new formed list is : L0 -> Ln -> L1 -> Ln-1 -> L2 -> Ln-2.
