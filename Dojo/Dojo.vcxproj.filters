@@ -16,6 +16,9 @@
     <Filter Include="GfG\SLL">
       <UniqueIdentifier>{4004e9f0-677f-4c8f-adb2-962cee61aded}</UniqueIdentifier>
     </Filter>
+    <Filter Include="GfG\Bits">
+      <UniqueIdentifier>{7c6bb31e-bd8e-411d-9010-6a5feae585a8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Utils\Check.cpp">
@@ -48,12 +51,6 @@
       <Filter>GfG</Filter>
     </ClCompile>
     <ClCompile Include="GfG\g004.cpp">
-      <Filter>GfG</Filter>
-    </ClCompile>
-    <ClCompile Include="GfG\g005.cpp">
-      <Filter>GfG</Filter>
-    </ClCompile>
-    <ClCompile Include="GfG\g006.cpp">
       <Filter>GfG</Filter>
     </ClCompile>
     <ClCompile Include="GfG\SLL\g007.cpp">
@@ -108,6 +105,15 @@
     </ClCompile>
     <ClCompile Include="GfG\SLL\g024.cpp">
       <Filter>GfG\SLL</Filter>
+    </ClCompile>
+    <ClCompile Include="GfG\Bits\g005.cpp">
+      <Filter>GfG\Bits</Filter>
+    </ClCompile>
+    <ClCompile Include="GfG\Bits\g006.cpp">
+      <Filter>GfG\Bits</Filter>
+    </ClCompile>
+    <ClCompile Include="GfG\Bits\g026.cpp">
+      <Filter>GfG\Bits</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

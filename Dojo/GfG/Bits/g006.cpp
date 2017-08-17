@@ -1,6 +1,6 @@
 // #0_Diff_Medium
 // #0_Comp_Microsoft
-// #Bit
+// #Bits
 
 /* http://practice.geeksforgeeks.org/problems/first-non-repeating-character-in-a-stream/0
 Given an input stream of n characters consisting only of small case alphabets the task is to find the first non repeating character each time a character is inserted to the stream.

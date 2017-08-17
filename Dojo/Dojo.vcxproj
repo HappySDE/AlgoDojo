@@ -153,13 +153,14 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="GfG\Bits\g005.cpp" />
+    <ClCompile Include="GfG\Bits\g006.cpp" />
+    <ClCompile Include="GfG\Bits\g026.cpp" />
     <ClCompile Include="GfG\g000.cpp" />
     <ClCompile Include="GfG\g001.cpp" />
     <ClCompile Include="GfG\g002.cpp" />
     <ClCompile Include="GfG\g003.cpp" />
     <ClCompile Include="GfG\g004.cpp" />
-    <ClCompile Include="GfG\g005.cpp" />
-    <ClCompile Include="GfG\g006.cpp" />
     <ClCompile Include="GfG\SLL\g007.cpp" />
     <ClCompile Include="GfG\SLL\g008.cpp" />
     <ClCompile Include="GfG\SLL\g009.cpp" />
