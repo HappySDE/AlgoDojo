@@ -87,7 +87,6 @@
       <Filter>GfG\SLL</Filter>
     </ClCompile>
     <ClCompile Include="GfG\SLL\g015.cpp" />
-    <ClCompile Include="GfG\SLL\g025.cpp" />
     <ClCompile Include="GfG\SLL\g019.cpp">
       <Filter>GfG\SLL</Filter>
     </ClCompile>
@@ -114,6 +113,9 @@
     </ClCompile>
     <ClCompile Include="GfG\Bits\g026.cpp">
       <Filter>GfG\Bits</Filter>
+    </ClCompile>
+    <ClCompile Include="GfG\SLL\g025.cpp">
+      <Filter>GfG\SLL</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
