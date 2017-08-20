@@ -6,13 +6,13 @@
 
 struct FileTestData : public std::ifstream
 {
-	FileTestData(const std::string& fileName, unsigned run);
+	FileTestData(const std::string& testCaseRoot, unsigned testCase);
 };
 
 class Result
 {
 public:
-	Result(const std::string& fileName, unsigned run);
+	Result(const std::string& testCaseRoot, unsigned testCase);
 	~Result();
 
 	template<typename T>
@@ -27,4 +27,5 @@ private:
 	std::stringstream        m_received;
 };
 
-std::string GetTestCasePath(const std::string& testCaseName, unsigned run, bool input);
+std::string GetTestCaseRoot(const std::string& testTopic, unsigned taskId);
+std::string GetTestCasePath(const std::string& testCaseRoot, unsigned testCase, bool input);

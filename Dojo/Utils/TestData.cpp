@@ -24,35 +24,37 @@ namespace {
 
 } // unnamed namespace
 
+std::string GetTestCaseRoot(const std::string& testTopic, unsigned taskId)
+{
+	// W:\!Practice\TestData\SLL\0\ 
+	return GetSolutionFolder() + "Dojo\\TestData\\" + testTopic + '\\' + std::to_string(taskId) + '\\';
+}
 
 //////////////////////////////////////////////////////////////////////////
-std::string GetTestCasePath(const std::string& testCaseName, unsigned run, bool input)
+std::string GetTestCasePath(const std::string& testCaseRoot, unsigned testCase, bool input)
 {
-	// W:\!Practice\TestData\g000\0.in
-	static const std::string testCaseRoot = GetSolutionFolder() + "Dojo\\TestData\\";
-	std::string path = testCaseRoot;
-	path += testCaseName + '\\' + std::to_string(run);
+	std::string path = testCaseRoot + std::to_string(testCase);
 	path += input ? ".in" : ".out";
 	return path;
 }
 
 
 //////////////////////////////////////////////////////////////////////////
-FileTestData::FileTestData(const std::string& file, unsigned run)
-	: std::ifstream{ GetTestCasePath(file, run, true)}
+FileTestData::FileTestData(const std::string& testCaseRoot, unsigned testCase)
+	: std::ifstream{ GetTestCasePath(testCaseRoot, testCase, true)}
 {
-	_check(good()) << "Failed to open" << GetTestCasePath(file, run, true);
+	_check(good()) << "Failed to open" << GetTestCasePath(testCaseRoot, testCase, true);
 }
 
 
 //////////////////////////////////////////////////////////////////////////
-Result::Result(const std::string& fileName, unsigned run)
+Result::Result(const std::string& testCaseRoot, unsigned testCase)
 {
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_INTENSITY);
-	std::cout << "Test case: " << GetTestCasePath(fileName, run, true) << '\n';
+	std::cout << "Test case: " << GetTestCasePath(testCaseRoot, testCase, true) << '\n';
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_BLUE);
 
-	std::ifstream ifs{ GetTestCasePath(fileName, run, false) };
+	std::ifstream ifs{ GetTestCasePath(testCaseRoot, testCase, false) };
 	_check(ifs.good());
 
 	std::string line;

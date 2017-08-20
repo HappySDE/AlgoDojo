@@ -17,10 +17,10 @@ void solve()
 } // unnamed namespace
 
 
-void x01x(unsigned run) //#yyy_FILL_ME: prefix and suffix
+void xy(const std::string& testCaseRoot, unsigned testCase) //#yyy_FILL_ME: prefix and suffix
 {
-	FileTestData cin (__FUNCTION__, run);
-	Result       cout(__FUNCTION__, run);
+	FileTestData cin (testCaseRoot, testCase);
+	Result       cout(testCaseRoot, testCase);
 	PerfTimer    perf;
 
 	unsigned T;
