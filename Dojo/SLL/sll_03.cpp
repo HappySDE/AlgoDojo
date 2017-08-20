@@ -1,4 +1,5 @@
 // #0_Diff_Easy
+// #0_Src_GfG
 // #SLL
 
 /* http://practice.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1
@@ -30,7 +31,7 @@ Output:
 1880		*/
 
 #include "Headers.h"
-#include "ADT\SLL.h"
+#include "!ADT\SLL.h"
 using namespace SLL;
 
 namespace {
@@ -99,10 +100,10 @@ Node* addOne(Node *head)
 } // unnamed namespace
 
 
-void g010(unsigned run)
+void SLL_3(const std::string& testCaseRoot, unsigned testCase)
 {
-	FileTestData cin (__FUNCTION__, run);
-	Result       cout(__FUNCTION__, run);
+	FileTestData cin(testCaseRoot,  testCase);
+	Result       cout(testCaseRoot, testCase);
 	PerfTimer    perf;
 
 	unsigned T;

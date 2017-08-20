@@ -10,12 +10,6 @@
     <Filter Include="GfG">
       <UniqueIdentifier>{e0842126-3f72-4766-8190-cc91be415aa4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="GfG\SLL">
-      <UniqueIdentifier>{4004e9f0-677f-4c8f-adb2-962cee61aded}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="GfG\Bits">
-      <UniqueIdentifier>{7c6bb31e-bd8e-411d-9010-6a5feae585a8}</UniqueIdentifier>
-    </Filter>
     <Filter Include="!ADT">
       <UniqueIdentifier>{cae62ea7-f2af-43e1-a8a2-97b10b87c01c}</UniqueIdentifier>
     </Filter>
@@ -60,15 +54,6 @@
       <Filter>GfG</Filter>
     </ClCompile>
     <ClCompile Include="GfG\SLL\g015.cpp" />
-    <ClCompile Include="GfG\Bits\g005.cpp">
-      <Filter>GfG\Bits</Filter>
-    </ClCompile>
-    <ClCompile Include="GfG\Bits\g006.cpp">
-      <Filter>GfG\Bits</Filter>
-    </ClCompile>
-    <ClCompile Include="GfG\Bits\g026.cpp">
-      <Filter>GfG\Bits</Filter>
-    </ClCompile>
     <ClCompile Include="SLL\sll_00.cpp">
       <Filter>SLL</Filter>
     </ClCompile>
