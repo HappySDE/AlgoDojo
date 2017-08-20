@@ -1,6 +1,7 @@
 #include "Utils\Check.h"
 #include "Utils\TestData.h"
 #include <iostream>
+#include <iomanip>
 
 #define WIN32_LEAN_AND_MEAN
 #include <windows.h>
@@ -63,6 +64,17 @@ Result::Result(const std::string& testCaseRoot, unsigned testCase)
 		m_expected.push_back(line);
 	}
 }
+
+void Result::setprecision(unsigned precision)
+{
+	m_received << std::setprecision(precision);
+}
+
+void Result::fixed()
+{
+	m_received << std::fixed;
+}
+
 
 Result::~Result()
 {

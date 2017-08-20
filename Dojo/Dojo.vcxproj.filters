@@ -22,6 +22,9 @@
     <Filter Include="Unspecified">
       <UniqueIdentifier>{1a5be68b-f41d-49bb-b593-ebac94293b21}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{77d1e082-6df1-4138-a51f-581300202da1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Utils\Check.cpp">
@@ -118,6 +121,9 @@
     </ClCompile>
     <ClCompile Include="Unspecified\Unsp_3.cpp">
       <Filter>Unspecified</Filter>
+    </ClCompile>
+    <ClCompile Include="Geom\Geom_00.cpp">
+      <Filter>Geometry</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -18,7 +18,7 @@ void solve()
 } // unnamed namespace
 
 
-void xy(const std::string& testCaseRoot, unsigned testCase) //#yyy_FILL_ME: prefix and suffix
+void x_y(const std::string& testCaseRoot, unsigned testCase) //#yyy_FILL_ME: prefix and suffix
 {
 	FileTestData cin (testCaseRoot, testCase);
 	Result       cout(testCaseRoot, testCase);

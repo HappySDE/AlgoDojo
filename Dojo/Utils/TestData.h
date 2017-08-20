@@ -15,6 +15,9 @@ public:
 	Result(const std::string& testCaseRoot, unsigned testCase);
 	~Result();
 
+	void setprecision(unsigned precision);
+	void fixed();
+
 	template<typename T>
 	std::stringstream& operator << (const T& data)
 	{

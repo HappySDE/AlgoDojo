@@ -157,6 +157,7 @@
     <ClCompile Include="Bits\Bits_0.cpp" />
     <ClCompile Include="Bits\Bits_1.cpp" />
     <ClCompile Include="Bits\Bits_2.cpp" />
+    <ClCompile Include="Geom\Geom_00.cpp" />
     <ClCompile Include="SLL\sll_00.cpp" />
     <ClCompile Include="SLL\sll_01.cpp" />
     <ClCompile Include="SLL\sll_02.cpp" />
