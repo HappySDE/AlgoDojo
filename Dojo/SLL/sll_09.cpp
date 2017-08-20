@@ -1,5 +1,6 @@
 // #0_Diff_Easy
 // #0_Comp_Microsoft
+// #0_Src_GfG
 // #SLL
 
 /* http://practice.geeksforgeeks.org/problems/delete-middle-of-linked-list/1
@@ -31,7 +32,7 @@ Output:
 2 4 6 5 1	*/
 
 #include "Headers.h"
-#include "ADT\SLL.h"
+#include "!ADT\SLL.h"
 using namespace SLL;
 
 namespace {
@@ -75,10 +76,10 @@ Node* deleteMid(Node *head)
 } // unnamed namespace
 
 
-void g017(unsigned run)
+void SLL_9(const std::string& testCaseRoot, unsigned testCase)
 {
-	FileTestData cin (__FUNCTION__, run);
-	Result       cout(__FUNCTION__, run);
+	FileTestData cin (testCaseRoot, testCase);
+	Result       cout(testCaseRoot, testCase);
 	PerfTimer    perf;
 
 	unsigned T;

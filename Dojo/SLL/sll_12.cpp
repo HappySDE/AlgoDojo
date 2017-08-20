@@ -1,5 +1,6 @@
 // #0_Diff_Easy
 // #0_Comp_Microsoft
+// #0_Src_GfG
 // #SLL
 
 /* http://practice.geeksforgeeks.org/problems/merge-2-sorted-linked-list-in-reverse-order/1
@@ -24,7 +25,7 @@ Output:
 4 2 1 1  */
 
 #include "Headers.h"
-#include "ADT\SLL.h"
+#include "!ADT\SLL.h"
 using namespace SLL;
 
 namespace {
@@ -100,10 +101,10 @@ Node* mergeResult(Node* first, Node* second)
 } // unnamed namespace
 
 
-void g020(unsigned run)
+void SLL_12(const std::string& testCaseRoot, unsigned testCase)
 {
-	FileTestData cin (__FUNCTION__, run);
-	Result       cout(__FUNCTION__, run);
+	FileTestData cin (testCaseRoot, testCase);
+	Result       cout(testCaseRoot, testCase);
 	PerfTimer    perf;
 
 	unsigned T;

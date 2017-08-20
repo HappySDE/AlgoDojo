@@ -1,5 +1,6 @@
 // #0_Diff_Easy
 // #0_Comp_Microsoft
+// #0_Src_GfG
 // #SLL
 
 /* http://practice.geeksforgeeks.org/problems/reverse-a-linked-list/1
@@ -16,7 +17,7 @@ Output:
 6 5 4 3 2 1 		*/
 
 #include "Headers.h"
-#include "ADT\SLL.h"
+#include "!ADT\SLL.h"
 using namespace SLL;
 
 namespace {
@@ -46,10 +47,10 @@ Node* reverse(Node* head)
 } // unnamed namespace
 
 
-void g016(unsigned run)
+void SLL_8(const std::string& testCaseRoot, unsigned testCase)
 {
-	FileTestData cin (__FUNCTION__, run);
-	Result       cout(__FUNCTION__, run);
+	FileTestData cin (testCaseRoot, testCase);
+	Result       cout(testCaseRoot, testCase);
 	PerfTimer    perf;
 
 	unsigned T;

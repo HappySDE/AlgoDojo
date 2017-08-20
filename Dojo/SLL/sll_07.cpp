@@ -1,4 +1,5 @@
 // #0_Diff_Medium
+// #0_Src_GfG
 // #SLL
 
 /* http://practice.geeksforgeeks.org/problems/given-a-linked-list-reverse-alternate-nodes-and-append-at-the-end/1
@@ -17,7 +18,7 @@ OUTPUT:
 10 9 3 9 4 5 1 4 		*/
 
 #include "Headers.h"
-#include "ADT\SLL.h"
+#include "!ADT\SLL.h"
 using namespace SLL;
 
 namespace {
@@ -82,10 +83,10 @@ void rearrange(Node* pHead)
 } // unnamed namespace
 
 
-void g014(unsigned run)
+void SLL_7(const std::string& testCaseRoot, unsigned testCase)
 {
-	FileTestData cin (__FUNCTION__, run);
-	Result       cout(__FUNCTION__, run);
+	FileTestData cin (testCaseRoot, testCase);
+	Result       cout(testCaseRoot, testCase);
 	PerfTimer    perf;
 
 	unsigned T;

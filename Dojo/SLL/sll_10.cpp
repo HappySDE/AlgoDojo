@@ -1,4 +1,5 @@
 // #0_Diff_Easy
+// #0_Src_GfG
 // #SLL
 
 /* http://practice.geeksforgeeks.org/problems/rearrange-linked-list-in-place/1
@@ -21,7 +22,7 @@ Output:
 1 5 2 4 3		*/
 
 #include "Headers.h"
-#include "ADT\SLL.h"
+#include "!ADT\SLL.h"
 using namespace SLL;
 
 namespace {
@@ -108,10 +109,10 @@ Node* inPlace(Node* root)
 } // unnamed namespace
 
 
-void g018(unsigned run)
+void SLL_10(const std::string& testCaseRoot, unsigned testCase)
 {
-	FileTestData cin (__FUNCTION__, run);
-	Result       cout(__FUNCTION__, run);
+	FileTestData cin (testCaseRoot, testCase);
+	Result       cout(testCaseRoot, testCase);
 	PerfTimer    perf;
 
 	unsigned T;
