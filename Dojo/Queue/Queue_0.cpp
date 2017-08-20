@@ -1,4 +1,5 @@
 // #0_Diff_Easy
+// #yyy_FILL_ME: 0_Src_HR
 // #Queue
 
 /* https://www.hackerrank.com/challenges/equal-stacks/problem
@@ -14,10 +15,10 @@ Note: An empty stack is still a stack. */
 #include "Headers.h"
 #include <queue>
 
-void h000(unsigned run)
+void Queue_0(const std::string& testCaseRoot, unsigned testCase)
 {
-	FileTestData cin (__FUNCTION__, run);
-	Result       cout(__FUNCTION__, run);
+	FileTestData cin(testCaseRoot, testCase);
+	Result       cout(testCaseRoot, testCase);
 	PerfTimer    perf;
 
 	int sz0, sz1, sz2;

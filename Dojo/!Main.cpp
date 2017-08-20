@@ -3,8 +3,8 @@
 #include <exception>
 #include <iostream>
 
-#define TOPIC_ID SLL
-#define TASK_ID  17
+#define TOPIC_ID Queue
+#define TASK_ID  0
 
 //geom + 1 => geom_1 with '_' inbetween
 #define PPCAT_HELPER(A, B) A##_##B
