@@ -153,35 +153,10 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="All\Queue_0.cpp" />
     <ClCompile Include="Array\Array_0.cpp" />
     <ClCompile Include="Bits\Bits_0.cpp" />
     <ClCompile Include="Bits\Bits_1.cpp" />
     <ClCompile Include="Bits\Bits_2.cpp" />
-    <ClCompile Include="GfG\g000.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="GfG\g001.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="GfG\g002.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="GfG\SLL\g015.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
-    </ClCompile>
     <ClCompile Include="SLL\sll_00.cpp" />
     <ClCompile Include="SLL\sll_01.cpp" />
     <ClCompile Include="SLL\sll_02.cpp" />
@@ -201,6 +176,10 @@
     <ClCompile Include="SLL\sll_16.cpp" />
     <ClCompile Include="SLL\sll_17.cpp" />
     <ClCompile Include="String\String_0.cpp" />
+    <ClCompile Include="Unspecified\Unsp_0.cpp" />
+    <ClCompile Include="Unspecified\Unsp_1.cpp" />
+    <ClCompile Include="Unspecified\Unsp_2.cpp" />
+    <ClCompile Include="Unspecified\Unsp_3.cpp" />
     <ClCompile Include="Utils\Check.cpp" />
     <ClCompile Include="Utils\Misc.cpp" />
     <ClCompile Include="Utils\PerfTimer.cpp" />

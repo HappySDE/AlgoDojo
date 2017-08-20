@@ -1,5 +1,5 @@
 // #0_Diff_Easy
-// #yyy_FILL_ME: 0_Src_HR
+// #0_Src_HR
 // #Queue
 
 /* https://www.hackerrank.com/challenges/equal-stacks/problem
@@ -15,7 +15,7 @@ Note: An empty stack is still a stack. */
 #include "Headers.h"
 #include <queue>
 
-void Queue_0(const std::string& testCaseRoot, unsigned testCase)
+void Unsp_3(const std::string& testCaseRoot, unsigned testCase)
 {
 	FileTestData cin(testCaseRoot, testCase);
 	Result       cout(testCaseRoot, testCase);

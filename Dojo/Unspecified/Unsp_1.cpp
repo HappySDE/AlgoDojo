@@ -1,4 +1,4 @@
-// 0_Diff_Basic
+// #0_Diff_Basic
 // #0_Src_GfG
 // #Graph #PathFind
 
@@ -42,10 +42,10 @@ namespace {
 
 } // unnamed namespace
 
-void g001(unsigned run)
+void Unsp_1(const std::string& testCaseRoot, unsigned testCase)
 {
-	FileTestData cin (__FUNCTION__, run);
-	Result       cout(__FUNCTION__, run);
+	FileTestData cin (testCaseRoot, testCase);
+	Result       cout(testCaseRoot, testCase);
 	PerfTimer    perf;
 
 	unsigned T;

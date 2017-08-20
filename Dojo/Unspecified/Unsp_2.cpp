@@ -51,10 +51,10 @@ namespace {
 
 } // unnamed namespace
 
-void g002(unsigned run)
+void Unsp_2(const std::string& testCaseRoot, unsigned testCase)
 {
-	FileTestData cin (__FUNCTION__, run);
-	Result       cout(__FUNCTION__, run);
+	FileTestData cin (testCaseRoot, testCase);
+	Result       cout(testCaseRoot, testCase);
 	PerfTimer    perf;
 
 	unsigned T;

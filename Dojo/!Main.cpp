@@ -6,8 +6,8 @@
 #define WIN32_LEAN_AND_MEAN
 #include <windows.h>
 
-#define TOPIC_ID String
-#define TASK_ID  0
+#define TOPIC_ID Unsp
+#define TASK_ID  3
 
 //geom + 1 => geom_1 with '_' inbetween
 #define PPCAT_HELPER(A, B) A##_##B
