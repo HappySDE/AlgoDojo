@@ -26,8 +26,8 @@ namespace {
 
 std::string GetTestCaseRoot(const std::string& testTopic, unsigned taskId)
 {
-	// W:\!Practice\TestData\SLL\0\ 
-	return GetSolutionFolder() + "Dojo\\TestData\\" + testTopic + '\\' + std::to_string(taskId) + '\\';
+	// W:\!Practice\!TestData\SLL\0\ 
+	return GetSolutionFolder() + "Dojo\\!TestData\\" + testTopic + '\\' + std::to_string(taskId) + '\\';
 }
 
 //////////////////////////////////////////////////////////////////////////

@@ -3,10 +3,11 @@
 #include <exception>
 #include <iostream>
 
-#define TOPIC_ID geom
+#define TOPIC_ID SLL
 #define TASK_ID  1
 
-#define PPCAT_HELPER(A, B) A##B
+//geom + 1 => geom_1 with '_' inbetween
+#define PPCAT_HELPER(A, B) A##_##B
 #define PPCAT(A, B) PPCAT_HELPER(A, B)
 
 #define STRINGIZE_HELPER(A) #A
@@ -14,7 +15,7 @@
 
 #define TEST_CASE_NAME PPCAT(TOPIC_ID, TASK_ID)
 
-void TEST_CASE_NAME(const std::string& topic, unsigned taskId, unsigned testData);
+void TEST_CASE_NAME(const std::string& testCaseRoot, unsigned testData);
 
 void main()
 try
