@@ -1,9 +1,11 @@
 // #0_Diff_Easy
 // #0_Comp_Microsoft
+// #0_Src_GfG
 // #Array
 
 /* http://practice.geeksforgeeks.org/problems/transform-the-array/0
-Given an array containing integers, zero is considered an invalid number and rest all other numbers are valid. If two nearest valid numbers are equal then double the value of the first one and make the second number as 0.At last move all the valid numbers on the left.
+Given an array containing integers, zero is considered an invalid number and rest all other numbers are valid. 
+If two nearest valid numbers are equal then double the value of the first one and make the second number as 0.At last move all the valid numbers on the left.
 
 Input:
 The first line of input contains an integer T denoting the number of test cases. The first line of each test case consists of an integer n. The next line consists of n spaced integers.
@@ -66,10 +68,10 @@ namespace {
 
 } // unnamed namespace
 
-void g004(unsigned run)
+void Array_0(const std::string& testCaseRoot, unsigned testCase)
 {
-	FileTestData cin (__FUNCTION__, run);
-	Result       cout(__FUNCTION__, run);
+	FileTestData cin (testCaseRoot, testCase);
+	Result       cout(testCaseRoot, testCase);
 	PerfTimer    perf;
 
 	unsigned T;

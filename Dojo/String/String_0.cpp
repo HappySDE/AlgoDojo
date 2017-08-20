@@ -1,5 +1,6 @@
 // #0_Diff_Easy
 // #0_Comp_Facebook
+// #0_Src_GfG
 // #String
 
 /* http://practice.geeksforgeeks.org/problems/maximum-integer-value/0
@@ -48,10 +49,10 @@ namespace {
 
 } // unnamed namespace
 
-void g003(unsigned run)
+void String_0(const std::string& testCaseRoot, unsigned testCase)
 {
-	FileTestData cin (__FUNCTION__, run);
-	Result       cout(__FUNCTION__, run);
+	FileTestData cin (testCaseRoot, testCase);
+	Result       cout(testCaseRoot, testCase);
 	PerfTimer    perf;
 
 	unsigned T;

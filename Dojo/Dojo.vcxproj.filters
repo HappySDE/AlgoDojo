@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Utils">
-      <UniqueIdentifier>{92ecb233-73ee-4216-9a7e-bb2fa7295539}</UniqueIdentifier>
-    </Filter>
     <Filter Include="!ADT">
       <UniqueIdentifier>{cae62ea7-f2af-43e1-a8a2-97b10b87c01c}</UniqueIdentifier>
     </Filter>
@@ -19,22 +16,31 @@
     <Filter Include="!!_Obsolete\GfG">
       <UniqueIdentifier>{e0842126-3f72-4766-8190-cc91be415aa4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Queue">
+    <Filter Include="All">
       <UniqueIdentifier>{1a5be68b-f41d-49bb-b593-ebac94293b21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Array">
+      <UniqueIdentifier>{383073cd-33b4-4a1d-a9e1-a99841fa6cc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="String">
+      <UniqueIdentifier>{00e822b8-2bf3-4f2c-8c86-542aceb30889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="!Utils">
+      <UniqueIdentifier>{92ecb233-73ee-4216-9a7e-bb2fa7295539}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Utils\Check.cpp">
-      <Filter>Utils</Filter>
+      <Filter>!Utils</Filter>
     </ClCompile>
     <ClCompile Include="Utils\Misc.cpp">
-      <Filter>Utils</Filter>
+      <Filter>!Utils</Filter>
     </ClCompile>
     <ClCompile Include="Utils\PerfTimer.cpp">
-      <Filter>Utils</Filter>
+      <Filter>!Utils</Filter>
     </ClCompile>
     <ClCompile Include="Utils\TestData.cpp">
-      <Filter>Utils</Filter>
+      <Filter>!Utils</Filter>
     </ClCompile>
     <ClCompile Include="!Main.cpp" />
     <ClCompile Include="!template.cpp" />
@@ -45,12 +51,6 @@
       <Filter>!!_Obsolete\GfG</Filter>
     </ClCompile>
     <ClCompile Include="GfG\g002.cpp">
-      <Filter>!!_Obsolete\GfG</Filter>
-    </ClCompile>
-    <ClCompile Include="GfG\g003.cpp">
-      <Filter>!!_Obsolete\GfG</Filter>
-    </ClCompile>
-    <ClCompile Include="GfG\g004.cpp">
       <Filter>!!_Obsolete\GfG</Filter>
     </ClCompile>
     <ClCompile Include="GfG\SLL\g015.cpp" />
@@ -117,25 +117,31 @@
     <ClCompile Include="Bits\Bits_2.cpp">
       <Filter>Bits</Filter>
     </ClCompile>
-    <ClCompile Include="Queue\Queue_0.cpp">
-      <Filter>Queue</Filter>
+    <ClCompile Include="All\Queue_0.cpp">
+      <Filter>All</Filter>
+    </ClCompile>
+    <ClCompile Include="Array\Array_0.cpp">
+      <Filter>Array</Filter>
+    </ClCompile>
+    <ClCompile Include="String\String_0.cpp">
+      <Filter>String</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Utils\Check.h">
-      <Filter>Utils</Filter>
+      <Filter>!Utils</Filter>
     </ClInclude>
     <ClInclude Include="Utils\MemoryLeakDetector.h">
-      <Filter>Utils</Filter>
+      <Filter>!Utils</Filter>
     </ClInclude>
     <ClInclude Include="Utils\Misc.h">
-      <Filter>Utils</Filter>
+      <Filter>!Utils</Filter>
     </ClInclude>
     <ClInclude Include="Utils\PerfTimer.h">
-      <Filter>Utils</Filter>
+      <Filter>!Utils</Filter>
     </ClInclude>
     <ClInclude Include="Utils\TestData.h">
-      <Filter>Utils</Filter>
+      <Filter>!Utils</Filter>
     </ClInclude>
     <ClInclude Include="!ADT\SLL.h">
       <Filter>!ADT</Filter>
