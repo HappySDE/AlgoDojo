@@ -1,5 +1,6 @@
 // #0_Diff_Medium
 // #0_Comp_Microsoft
+// #0_Src_GfG
 // #Bits
 
 /* http://practice.geeksforgeeks.org/problems/first-non-repeating-character-in-a-stream/0
@@ -39,10 +40,11 @@ Example:
 #include <bitset>
 #include <deque>
 
-void g006(unsigned run)
+void Bits_1(const std::string& testCaseRoot, unsigned testCase)
 {
-	FileTestData cin (__FUNCTION__, run);
-	Result       cout(__FUNCTION__, run);
+	FileTestData cin(testCaseRoot,  testCase);
+	Result       cout(testCaseRoot, testCase);
+
 	PerfTimer    perf;
 
 	unsigned T;

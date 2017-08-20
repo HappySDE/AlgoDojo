@@ -10,14 +10,20 @@
     <Filter Include="GfG">
       <UniqueIdentifier>{e0842126-3f72-4766-8190-cc91be415aa4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ADT">
-      <UniqueIdentifier>{cae62ea7-f2af-43e1-a8a2-97b10b87c01c}</UniqueIdentifier>
-    </Filter>
     <Filter Include="GfG\SLL">
       <UniqueIdentifier>{4004e9f0-677f-4c8f-adb2-962cee61aded}</UniqueIdentifier>
     </Filter>
     <Filter Include="GfG\Bits">
       <UniqueIdentifier>{7c6bb31e-bd8e-411d-9010-6a5feae585a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="!ADT">
+      <UniqueIdentifier>{cae62ea7-f2af-43e1-a8a2-97b10b87c01c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SLL">
+      <UniqueIdentifier>{054b5eb0-afec-471f-bfcf-6c9dfea72d0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bits">
+      <UniqueIdentifier>{85f2bd2c-fb1b-4bdf-8e28-7fe80c04706f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -53,58 +59,7 @@
     <ClCompile Include="GfG\g004.cpp">
       <Filter>GfG</Filter>
     </ClCompile>
-    <ClCompile Include="GfG\SLL\g007.cpp">
-      <Filter>GfG\SLL</Filter>
-    </ClCompile>
-    <ClCompile Include="GfG\SLL\g008.cpp">
-      <Filter>GfG\SLL</Filter>
-    </ClCompile>
-    <ClCompile Include="GfG\SLL\g009.cpp">
-      <Filter>GfG\SLL</Filter>
-    </ClCompile>
-    <ClCompile Include="GfG\SLL\g010.cpp">
-      <Filter>GfG\SLL</Filter>
-    </ClCompile>
-    <ClCompile Include="GfG\SLL\g011.cpp">
-      <Filter>GfG\SLL</Filter>
-    </ClCompile>
-    <ClCompile Include="GfG\SLL\g012.cpp">
-      <Filter>GfG\SLL</Filter>
-    </ClCompile>
-    <ClCompile Include="GfG\SLL\g013.cpp">
-      <Filter>GfG\SLL</Filter>
-    </ClCompile>
-    <ClCompile Include="GfG\SLL\g014.cpp">
-      <Filter>GfG\SLL</Filter>
-    </ClCompile>
-    <ClCompile Include="GfG\SLL\g016.cpp">
-      <Filter>GfG\SLL</Filter>
-    </ClCompile>
-    <ClCompile Include="GfG\SLL\g017.cpp">
-      <Filter>GfG\SLL</Filter>
-    </ClCompile>
-    <ClCompile Include="GfG\SLL\g018.cpp">
-      <Filter>GfG\SLL</Filter>
-    </ClCompile>
     <ClCompile Include="GfG\SLL\g015.cpp" />
-    <ClCompile Include="GfG\SLL\g019.cpp">
-      <Filter>GfG\SLL</Filter>
-    </ClCompile>
-    <ClCompile Include="GfG\SLL\g020.cpp">
-      <Filter>GfG\SLL</Filter>
-    </ClCompile>
-    <ClCompile Include="GfG\SLL\g021.cpp">
-      <Filter>GfG\SLL</Filter>
-    </ClCompile>
-    <ClCompile Include="GfG\SLL\g022.cpp">
-      <Filter>GfG\SLL</Filter>
-    </ClCompile>
-    <ClCompile Include="GfG\SLL\g023.cpp">
-      <Filter>GfG\SLL</Filter>
-    </ClCompile>
-    <ClCompile Include="GfG\SLL\g024.cpp">
-      <Filter>GfG\SLL</Filter>
-    </ClCompile>
     <ClCompile Include="GfG\Bits\g005.cpp">
       <Filter>GfG\Bits</Filter>
     </ClCompile>
@@ -114,8 +69,68 @@
     <ClCompile Include="GfG\Bits\g026.cpp">
       <Filter>GfG\Bits</Filter>
     </ClCompile>
-    <ClCompile Include="GfG\SLL\g025.cpp">
-      <Filter>GfG\SLL</Filter>
+    <ClCompile Include="SLL\sll_00.cpp">
+      <Filter>SLL</Filter>
+    </ClCompile>
+    <ClCompile Include="SLL\sll_01.cpp">
+      <Filter>SLL</Filter>
+    </ClCompile>
+    <ClCompile Include="SLL\sll_02.cpp">
+      <Filter>SLL</Filter>
+    </ClCompile>
+    <ClCompile Include="SLL\sll_03.cpp">
+      <Filter>SLL</Filter>
+    </ClCompile>
+    <ClCompile Include="SLL\sll_04.cpp">
+      <Filter>SLL</Filter>
+    </ClCompile>
+    <ClCompile Include="SLL\sll_05.cpp">
+      <Filter>SLL</Filter>
+    </ClCompile>
+    <ClCompile Include="SLL\sll_06.cpp">
+      <Filter>SLL</Filter>
+    </ClCompile>
+    <ClCompile Include="SLL\sll_07.cpp">
+      <Filter>SLL</Filter>
+    </ClCompile>
+    <ClCompile Include="SLL\sll_08.cpp">
+      <Filter>SLL</Filter>
+    </ClCompile>
+    <ClCompile Include="SLL\sll_09.cpp">
+      <Filter>SLL</Filter>
+    </ClCompile>
+    <ClCompile Include="SLL\sll_10.cpp">
+      <Filter>SLL</Filter>
+    </ClCompile>
+    <ClCompile Include="SLL\sll_11.cpp">
+      <Filter>SLL</Filter>
+    </ClCompile>
+    <ClCompile Include="SLL\sll_12.cpp">
+      <Filter>SLL</Filter>
+    </ClCompile>
+    <ClCompile Include="SLL\sll_13.cpp">
+      <Filter>SLL</Filter>
+    </ClCompile>
+    <ClCompile Include="SLL\sll_14.cpp">
+      <Filter>SLL</Filter>
+    </ClCompile>
+    <ClCompile Include="SLL\sll_15.cpp">
+      <Filter>SLL</Filter>
+    </ClCompile>
+    <ClCompile Include="SLL\sll_16.cpp">
+      <Filter>SLL</Filter>
+    </ClCompile>
+    <ClCompile Include="SLL\sll_17.cpp">
+      <Filter>SLL</Filter>
+    </ClCompile>
+    <ClCompile Include="Bits\Bits_0.cpp">
+      <Filter>Bits</Filter>
+    </ClCompile>
+    <ClCompile Include="Bits\Bits_1.cpp">
+      <Filter>Bits</Filter>
+    </ClCompile>
+    <ClCompile Include="Bits\Bits_2.cpp">
+      <Filter>Bits</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -134,8 +149,8 @@
     <ClInclude Include="Utils\TestData.h">
       <Filter>Utils</Filter>
     </ClInclude>
-    <ClInclude Include="ADT\SLL.h">
-      <Filter>ADT</Filter>
+    <ClInclude Include="!ADT\SLL.h">
+      <Filter>!ADT</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

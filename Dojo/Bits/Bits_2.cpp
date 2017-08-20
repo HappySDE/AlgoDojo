@@ -1,5 +1,6 @@
 // #0_Diff_Medium
 // #0_Comp_SAP
+// #0_Src_GfG
 // #Bits
 
 /* http://practice.geeksforgeeks.org/problems/bleak-numbers/0
@@ -59,10 +60,11 @@ int solve(unsigned X)
 } // unnamed namespace
 
 
-void g026(unsigned run)
+void Bits_2(const std::string& testCaseRoot, unsigned testCase)
 {
-	FileTestData cin (__FUNCTION__, run);
-	Result       cout(__FUNCTION__, run);
+	FileTestData cin(testCaseRoot,  testCase);
+	Result       cout(testCaseRoot, testCase);
+
 	PerfTimer    perf;
 
 	unsigned T;
